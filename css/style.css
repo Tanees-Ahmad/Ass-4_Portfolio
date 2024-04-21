@@ -527,8 +527,10 @@ body.offcanvas .colorlib-nav-toggle {
   background-repeat: no-repeat;
   position: relative;
 }
-
-.colorlib-heading {
+.colorlib-heading{
+  text-align: center;
+}
+.colorlib-heading,.colorlib-headings {
   font-size: 3rem;
   margin-bottom: 1em;
   font-weight: 700;
@@ -536,9 +538,8 @@ body.offcanvas .colorlib-nav-toggle {
   letter-spacing: 3px;
   line-height: 1.8;
   position: relative;
-  text-align: center;
 }
-.colorlib-heading span {
+.colorlib-heading, .colorlib-headingsspan {
   display: block;
 }
 .row-pro{
@@ -546,9 +547,10 @@ body.offcanvas .colorlib-nav-toggle {
   text-align: center;
 }
 @media screen and (max-width: 768px) {
-  .colorlib-heading {
+  .colorlib-heading, .colorlib-headings {
     margin-bottom: 3em;
   }
+  
 }
 
 .heading-meta {

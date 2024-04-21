@@ -44,7 +44,7 @@ body {
 }
 
 a {
-  color: #2c98f0;
+  color: #ff0000;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -52,7 +52,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #2c98f0;
+  color: #ff0000;
   outline: none;
   text-decoration: none !important;
 }
@@ -94,17 +94,17 @@ figure figcaption {
 
 ::-webkit-selection {
   color: #fff;
-  background: #2c98f0;
+  background: #ff0000;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #2c98f0;
+  background: #f02c2c;
 }
 
 ::selection {
   color: #fff;
-  background: #2c98f0;
+  background: #ff0000;
 }
 
 #colorlib-page {
@@ -210,7 +210,7 @@ figure figcaption {
   bottom: 7px;
   left: 0;
   right: 0;
-  background-color: #2c98f0;
+  background-color: #ff0000;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -236,7 +236,7 @@ figure figcaption {
   transform: scaleX(1);
 }
 #colorlib-aside #colorlib-main-menu ul li.active a {
-  color: #2c98f0;
+  color: #ff0000;
 }
 #colorlib-aside #colorlib-main-menu ul li.active a:after {
   visibility: visible;
@@ -597,7 +597,7 @@ body.offcanvas .colorlib-nav-toggle {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Quicksand", Arial, sans-serif;
-  background-color: #2c98f0;
+  background-color: #ff0000;
   color: #fff;
   position: relative;
   -webkit-box-shadow: none !important;
@@ -697,7 +697,7 @@ body.offcanvas .colorlib-nav-toggle {
   display: block;
   width: 40px;
   height: 40px;
-  background: #2c98f0;
+  background: #ff0000;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -806,7 +806,7 @@ body.offcanvas .colorlib-nav-toggle {
   -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-  border-bottom: 2px solid #2c98f0;
+  border-bottom: 2px solid #ff0000;
 }
 .services .icon2 {
   display: block;
@@ -865,7 +865,7 @@ body.offcanvas .colorlib-nav-toggle {
   height: 50px;
   display: table;
   margin: 0 auto;
-  background: #2c98f0;
+  background: #ff0000;
 }
 .services .icon:before,
 .services .icon:after {
@@ -966,7 +966,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .progress-bar {
-  background: #2c98f0;
+  background: #ff0000;
   -webkit-box-shadow: none;
   box-shadow: none;
   font-size: 12px;
@@ -988,7 +988,7 @@ body.offcanvas .colorlib-nav-toggle {
   width: 10px;
   height: 10px;
   content: "";
-  background: #2c98f0;
+  background: #f02c2c;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1197,7 +1197,7 @@ body.offcanvas .colorlib-nav-toggle {
   color: #000;
 }
 .work-menu span a.active {
-  color: #2c98f0;
+  color: #ff0000;
 }
 .project-wraper {
   margin-bottom: 30px;
@@ -1465,9 +1465,9 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .pagination li a:hover,
 .pagination li a:focus {
-  background: #2c98f0;
+  background: #ff0000;
   color: #fff;
-  border: 1px solid #2c98f0;
+  border: 1px solid #ff0000;
 }
 @media screen and (max-width: 768px) {
   .pagination li a {
@@ -1475,14 +1475,14 @@ body.offcanvas .colorlib-nav-toggle {
   }
 }
 .pagination li.active a {
-  background: #2c98f0;
-  border: 1px solid #2c98f0 !important;
+  background: #ff0000;
+  border: 1px solid #ff0000 !important;
 }
 .pagination li.active a:hover,
 .pagination li.active a:focus {
-  background: #2c98f0;
+  background: #ff0000;
   color: #fff;
-  border: 1px solid #2c98f0 !important;
+  border: 1px solid #ff0000 !important;
 }
 
 .btn {
@@ -1520,25 +1520,25 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .btn-primary {
-  background: #2c98f0;
+  background: #ff0000;
   color: #fff;
-  border: 2px solid #2c98f0;
+  border: 2px solid #ff0000;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background: #44a4f2 !important;
-  border-color: #44a4f2 !important;
+  background: #ff0000 !important;
+  border-color: #ff0000 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #2c98f0;
-  border: 2px solid #2c98f0;
+  color: #ff0000;
+  border: 2px solid #ff0000;
 }
 .btn-primary.btn-outline:hover,
 .btn-primary.btn-outline:focus,
 .btn-primary.btn-outline:active {
-  background: #2c98f0;
+  background: #ff0000;
   color: #fff;
 }
 
@@ -1885,7 +1885,7 @@ h1 {
 .blue-line {
   height: 0.3rem;
   width: 6rem;
-  background-color: rgb(79, 143, 226);
+  background-color: rgb(255, 0, 0);
   margin-bottom: calc(3rem + 2vmin);
 }
 
@@ -1911,7 +1911,7 @@ h1 {
   width: calc(6rem + 4vmin);
   height: calc(6rem + 4vmin);
   position: relative;
-  box-shadow: 5px -3px rgb(79, 143, 226);
+  box-shadow: 5px -3px rgb(255, 0, 0);
   background-size: cover;
   margin-bottom: calc(0.7rem + 0.5vmin);
 }
@@ -1933,7 +1933,7 @@ h1 {
   display: grid;
   place-items: center;
   border-radius: 50%;
-  background-color: rgb(79, 143, 226);
+  background-color: rgb(255, 0, 0);
   position: absolute;
   top: 10%;
   left: -10%;
@@ -1972,7 +1972,7 @@ h1 {
 .arrow {
   width: calc(1.4rem + 0.6vmin);
   height: calc(1.4rem + 0.6vmin);
-  border: solid rgb(79, 143, 226);
+  border: solid rgb(255, 0, 0);
   border-width: 0 calc(0.5rem + 0.2vmin) calc(0.5rem + 0.2vmin) 0;
   cursor: pointer;
   transition: transform 0.3s;
@@ -1996,9 +1996,9 @@ h1 {
 }
 
 .surprise-me-btn {
-  border: 2px solid rgb(79, 143, 226);
+  border: 2px solid rgb(255, 0, 0);
   background-color: rgb(224, 238, 255);
-  color: rgb(79, 143, 226);
+  color: rgb(255, 0, 0);
   border-radius: 2rem;
   padding: calc(0.5rem + 0.2vmin) 0;
   width: calc(7rem + 5vmin);
@@ -2017,25 +2017,6 @@ h1 {
 .move-head {
   animation: moveHead 1.55s infinite;
   animation-delay: -0.8s;
-}
-
-.hide-chicken-btn {
-  border: 2px solid rgb(226, 89, 79);
-  background-color: rgb(255, 224, 224);
-  color: rgb(226, 79, 79);
-  border-radius: 2rem;
-  padding: calc(0.5rem + 0.2vmin) 0;
-  width: calc(10rem + 5vmin);
-  text-align: center;
-  transition: background-color 0.3s, transform 0.3s;
-  cursor: pointer;
-  margin-bottom: calc(1.4rem + 1vmin);
-}
-
-.hide-chicken-btn:hover {
-  transition: background-color 0.3s, transform 0.3s;
-  background-color: rgb(255, 255, 255);
-  transform: rotate(5deg);
 }
 
 @keyframes moveHead {

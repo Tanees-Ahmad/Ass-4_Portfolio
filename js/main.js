@@ -187,7 +187,7 @@ window.addEventListener("resize", () => {
 		// INJECT CSS
 		var css = document.createElement("style");
 		css.type = "text/css";
-		css.innerHTML = ".txt-rotate > .wrap { border-right: 0.1em solid #666; color: #2C98F0; font-weight: bold; text-decoration: underline }";
+		css.innerHTML = ".txt-rotate > .wrap { border-right: 0.1em solid #666; color: red; font-weight: bold; text-decoration: underline }";
 		document.body.appendChild(css);
 	  };
 

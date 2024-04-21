@@ -536,9 +536,14 @@ body.offcanvas .colorlib-nav-toggle {
   letter-spacing: 3px;
   line-height: 1.8;
   position: relative;
+  text-align: center;
 }
 .colorlib-heading span {
   display: block;
+}
+.row-pro{
+  align-items: center;
+  text-align: center;
 }
 @media screen and (max-width: 768px) {
   .colorlib-heading {
